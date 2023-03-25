@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registración de Nuevo Usuario</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="name" required> <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="surname" required> <br>
+        <label for="dni">DNI: </label>
+        <input type="number" name="dni" id="dni"> <br>
+        <label for="DoB">Fecha de Nacimiento</label>
+        <input type="date" name="DoB" id="DoB"> <br>
+        <label for="mail">E-mail: </label>
+        <input type="email" name="mail" id="mail" required> <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="pass" required minlength="4" maxlength="8"> <br>
+        <p>
+            Indica tu estado civil: <br>
+            <input type="radio" name="civil" id="civil_status" value="S">Soltero <br>
+            <input type="radio" name="civil" id="civil_status" value="C">Casado <br>
+            <input type="radio" name="civil" id="civil_status" value="D">Divorciado <br>
+            <input type="radio" name="civil" id="civil_status" value="V">Viudo <br>
+            <input type="radio" name="civil" id="civil_status" value="CV">Conviviente <br>
+        </p>
+        <p>En que estas interesado? <br>
+            <input type="checkbox" name="C">Culturales <br>
+            <input type="checkbox" name="D">Deportivos <br>
+            <input type="checkbox" name="T">Turistico <br>
+            <input type="checkbox" name="S">Sociales <br>
+            <input type="checkbox" name="O">Otros <br>
+        </p>
+        <p>Aqui puedes describir tus intereses</p>
+        <textarea name="description" id="description" cols="40" rows="10"></textarea> <br>
+        <select name="country" id="country">
+            Pais de residencia?
+            <option value="ARG">Argentina</option>
+            <option value="URU">Uruguay</option>
+            <option value="BLV">Bolivia</option>
+            <option value="BRZ">Brasil</option>
+            <option value="COL">Colombia</option>
+            <option value="CRC">Costa Rica</option>
+            <option value="CHL">Chile</option>
+            <option value="MEX">Mexico</option>
+            <option value="NIC">Nicaragua</option>
+            <option value="PNM">Panama</option>
+            <option value="PRG">Paraguay</option>
+            <option value="PER">Peru</option>
+            <option value="VNZ">Venezuela</option>
+            <option value="OTR">Otro</option>
+        </select> <br>
+        <input type="checkbox" name="additionalInformation" id="addInfo" checked>Recibir informacion adicional <br>
+        <input type="image" src="./login.png" alt="no fue posible cargar la imagen">
+    </form>
+</body>
+</html>
