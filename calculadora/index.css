@@ -1,0 +1,74 @@
+body{
+    display: flex;
+}
+
+body > section{
+    color:rgb(10, 150, 255);;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    background-color: lightcyan;
+    margin: 2%;
+    text-align: center;
+}
+
+section > form{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: max-content;
+}
+
+#operations > button , #button, #button2{
+    background-color: rgb(10, 150, 255);
+    border: 2px solid rgb(10, 150, 255);
+    color: white;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+#operations{
+    width: 100%;
+    display: flex;
+}
+
+form > button{
+    margin-top: 0.5rem;
+
+}
+
+#operations > button{
+    width: 30%;
+    margin:0.2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#num1,#num2,#num0,#num3,#num4{
+    border: 2px solid rgb(10, 150, 255);
+    padding: 0;
+    font-size:x-large;
+    border-radius: 0.3rem;
+    text-align: center;
+    color: rgb(10, 150, 255);
+    
+}
+
+#num1:focus , #num2:focus{
+    outline: none;
+}
+
+#button2,#button{
+    border-radius: 0.5rem;
+
+}
+p{
+    font-size: x-large;
+    /* text-decoration: double; */
+    font-weight: 900;
+    margin: 0;
+    margin-top: 2rem;
+}

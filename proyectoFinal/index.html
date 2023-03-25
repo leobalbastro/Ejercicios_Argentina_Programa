@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+</head>
+<body>
+
+    <form id="form">
+        <h1>Datos</h1>
+        <hr>
+        <input type="text" name="name" id="Nombre" maxlength="20" minlength="2" placeholder="Nombre" required>
+        <input type="text" id="Apellido" maxlength="25" minlength="2" placeholder="Apellido" required>
+        <input type="number" name="edad" max="120" min="18" id="age" placeholder="Edad" required>
+        <input type="number" name="DNI" min="100000" id="dni" placeholder="DNI" required>
+        <input type="email" name="mail" id="mail" placeholder="Tu correo electronico" required>
+        <button type="submit" onclick="reset()">Cargar</button>
+    </form> 
+
+    <td colspan="14"> Tabla</td>
+    <table id="result">
+        <tbody id="resultsTable" colspan="18">
+
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>DNI</th>
+                <th>Correo Electronico</th>
+
+        </tbody>
+            
+    </table>
+</body>
+<script src="index.js"></script>
+<link rel="stylesheet" href="index.css">
+</html>
